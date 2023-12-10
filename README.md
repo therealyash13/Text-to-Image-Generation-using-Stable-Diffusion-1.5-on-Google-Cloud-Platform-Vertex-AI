@@ -69,15 +69,15 @@ The CLI application for text-to-image generation on GCP Vertex AI has been succe
 Gratitude to Team Vermillio, including Ryan McHale and Drew Boshardy, for their guidance throughout the development process.
 
 ### 6. References
-[Stable Diffusion model
-Google Cloud Platform Vertex AI
-ControlNets Documentation
-Self-Attention Guidance Paper
-Personalized-diffusion Tutorial
-Beyond diffusion Article
-Stable-diffusion on Hugging Face
-Stable-diffusion: Latent Text-to-Image Diffusion
-v1.5 Download Guide Video]
+•	Stable Diffusion model: Link
+•	Google Cloud Platform Vertex AI: Link
+•	ControlNets: Documentation
+•	Self-Attention Guidance: Paper
+•	Rafid Siddiqui, J. (n.d.). Personalized-diffusion: A Tutorial on Customized Image Generation by Fine-Tuning the Stable Diffusion Models.
+•	Rafid Siddiqui, J. (2022, October 17). Beyond diffusion: What is personalized Image Generation and how can you customize image synthesis? Azad Academy. https://azadacademy.substack.com/p/beyond-diffusion-what-is-personalized 
+•	runwayml/stable-diffusion-v1-5 · Hugging Face. (n.d.). Huggingface.Co. Retrieved September 6, 2023, from https://huggingface.co/runwayml/stable-diffusion-v1-5 
+•	Stable-diffusion: Latent Text-to-Image Diffusion. (n.d.).
+•	TroubleChute [@TroubleChute]. (2022, October 21). v1.5 Download Guide | Stable Diffusion | AUTOMATIC1111’s Web UI. Youtube. https://www.youtube.com/watch?v=sN1r2L8Gg9A 
 
 
 ## Demo:
