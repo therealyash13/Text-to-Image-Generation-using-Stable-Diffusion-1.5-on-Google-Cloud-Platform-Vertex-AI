@@ -3,48 +3,47 @@
 ## Table of Contents
 
   1. Executive Summary
-  2. Introduction
-  3. Development Tools and Technologies
-  4. Development Tools and Technologies
-  5. Google Cloud Platform Vertex AI
-  6. Stable Diffusion 1.5 Model
-  7. Application Features
-  8. Command-Line Interface
-  9. Stable Diffusion 1.5 Integration
-  10. ControlNets and Self-Attention Guidance
-  11. Image Saving and Output
-  12. Requirements
-  13. Installation
-  14. Conclusion
-  15. Acknowledgments
-  16. References
+    1.1 Introduction
+    1.2 Development Tools and Technologies
+      1.2.1 Google Cloud Platform Vertex AI
+    1.3 Stable Diffusion 1.5 Model
+    1.4 Application Features
+      1.4.1 Command-Line Interface
+    1.5 Stable Diffusion 1.5 Integration
+    1.6 ControlNets and Self-Attention Guidance
+    1.7 Image Saving and Output
+  2. Requirements
+  3. Installation
+  4. Conclusion
+  5. Acknowledgments
+  6. References
 
 Done by:
 Yashwanth Balan Arumugam
 yashwanthbalan75@gmail.com
 
 ### 1. Executive Summary
-#### Introduction
+#### 1.1 Introduction
 This report details the development of a command-line interface (CLI) application for text-to-image generation using Stable Diffusion 1.5 on the Google Cloud Platform (GCP) Vertex AI. The application, executed by Yashwanth Balan Arumugam, meets specific requirements outlined by Team Vermillio.
 
-#### Development Tools and Technologies
+#### 1.2 Development Tools and Technologies
 Google Cloud Platform Vertex AI
 GCP Vertex AI was chosen for its scalability and powerful machine learning capabilities, offering access to pre-trained models and simplified deployment of custom solutions.
 
-####Stable Diffusion 1.5 Model
+#### 1.3 Stable Diffusion 1.5 Model
 The project utilizes the Stable Diffusion 1.5 model, a cutting-edge machine learning model for text-to-image generation available through the diffusers package.
 
-#### Application Features
-Command-Line Interface
+#### 1.4 Application Features
+##### 1.4.1 Command-Line Interface
 The CLI application provides a user-friendly interface with a simple command structure. Users invoke the application using the generate command and provide essential parameters.
 
-#### Stable Diffusion 1.5 Integration
+#### 1.5 Stable Diffusion 1.5 Integration
 The application seamlessly integrates the Stable Diffusion 1.5 model, renowned for its image generation capabilities, efficiently operating on GCP Vertex AI.
 
-#### ControlNets and Self-Attention Guidance
+#### 1.6 ControlNets and Self-Attention Guidance
 Advanced features include ControlNets options (Canny, HED, MiDaS, OpenPose) and Self-Attention Guidance (SAG) for enhanced image generation and higher-quality outputs.
 
-#### Image Saving and Output
+#### 1.7 Image Saving and Output
 Generated images are saved to specified file paths and returned as output for user access and utilization.
 
 ### 2. Requirements
@@ -90,6 +89,10 @@ generate --prompt "A fantasy landscape, trending on artstation" --seed 123 --bat
 Output:
 
 The generated output is organized in the "output_images" directory. The generated image file is named 'generated_image.png.' Use SSH to download the image conveniently.
+
+## License
+This project is licensed under the Apache License 2.0. For more information, please refer to the LICENSE file included in this repository.
+For any inquiries or questions, please contact yashwanthbalan75@gmail.com.
 
 #### bash
 generate --prompt "A man is fishing during a tsunami" --seed 123 --batch_size 1 --image_path /home/yashwanthbalan75/generated_image.jpg --control_net canny --use_style --sag_scale 0.5
